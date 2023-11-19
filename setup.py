@@ -17,14 +17,14 @@ setuptools.setup(
     author_email = AUTHOR_EMAIL,
     
     description= 'this is my classifier project',
-    long_description= log_desc
+    long_description= log_desc,
     
-    long_description_content = "text/markdown"
-    url = f'https://github.com/{AUTHOR_NAME}/{REPO_NAME}'
+    long_description_content = "text/markdown",
+    url = f'https://github.com/{AUTHOR_NAME}/{REPO_NAME}',
     
     project_url = {
     "Bug Tracker" : f'https://github.com/{AUTHOR_NAME}/{REPO_NAME}/issues',
-    }
+    },
     
     package_dir={'':"src"},
     packages=setuptools.find_packages(where='src')
