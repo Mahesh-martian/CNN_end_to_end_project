@@ -10,7 +10,7 @@ from deepClassifier.utils import utils
 
 class DataIngestion:
     
-    def __init__(self):
+    def __init__(sel,config):
         pass
     
     def download_file(self):
@@ -19,4 +19,8 @@ class DataIngestion:
     def get_updated_list_of_files(self):
         pass
     
-    def 
+    def preprocess(self):
+        pass
+    
+    def unzip_and_clean(self):
+        pass
